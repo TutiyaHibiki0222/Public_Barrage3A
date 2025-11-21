@@ -1,0 +1,4 @@
+KeyPath(キーパス),Key(キー) : (Data<Custom BaseKey>),File(画像ファイル先),Div,DivX,DivY,Width,Height,isOffSet,offSetX,offSetY,paddingX,paddingY,excludeTransparent
+Stages/2D,backs,Resources/Images/Stage/2D/back0.png,FALSE,,,,,,,,,,
+Stages/3D,Stage01,Resources/Images/Stage/3D/01/floor.png,FALSE,,,,,,,,,,
+Stages/3D,Stage01,Resources/Images/Stage/3D/01/fusuma.png,FALSE,,,,,,,,,,

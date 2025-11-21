@@ -1,0 +1,13 @@
+id,path,category,maxVolume,GroupID
+ui_change,Resources/Sounds/SE/change.wav,SE,1.0,
+ui_no,Resources/Sounds/SE/no001.wav,SE,0.5,
+ui_ok,Resources/Sounds/SE/ok001.wav,SE,1.0,
+graze,Resources/Sounds/SE/graze.wav,SE,1.0,
+pause,Resources/Sounds/SE/pause.wav,SE,0.75,
+player_shot,Resources/Sounds/SE/playerShot.wav,SE,0.75,
+playerHit,Resources/Sounds/SE/playerHit.wav,SE,0.6,
+item_get,Resources/Sounds/SE/item_get.wav,SE,1.0,
+enemy_damage,Resources/Sounds/SE/enemy_damage.wav,SE,0.45,
+enemy_shot,Resources/Sounds/SE/enemy_shot.wav,SE,1.0,
+enemy_bullet_change,Resources/Sounds/SE/ÉLÉâÅ[Éì.wav,SE,1.0,
+enemy_destroy,Resources/Sounds/SE/enemy_destroy.wav,SE,1.0,

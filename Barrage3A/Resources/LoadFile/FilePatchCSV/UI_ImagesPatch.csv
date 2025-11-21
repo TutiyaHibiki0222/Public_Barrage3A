@@ -1,0 +1,12 @@
+KeyPath(キーパス),Key(キー) : (Data<Custom BaseKey>),File(画像ファイル先),Div,DivX,DivY,Width,Height,isOffSet,offSetX,offSetY,paddingX,paddingY,excludeTransparent
+UI,Titles:Title01,Resources/Images/UI/Title/Title2.png,FALSE,,,,,,,,,,
+UI,Border:border0,Resources/Images/UI/Border/border1_SP_Notitle.png,FALSE,,,,,,,,,,
+UI,Fonts:Level,Resources/Images/UI/Font/Level.png,TRUE,1,5,144,32,FALSE,,,,,
+UI,Fonts,Resources/Images/UI/Font/Text.png,TRUE,2,4,152,35,FALSE,,,,,
+UI,Item:Ber,Resources/Images/UI/ItemImage/Bar.png,FALSE,,,,,,,,,,
+UI,Titles:Text,Resources/Images/UI/Font/TitliText.png,FALSE,,,,,,,,,,
+UI,Fonts,Resources/Images/UI/Font/TextPanelText.png,TRUE,2,19,352,48,FALSE,,,,,
+UI,Test:Tmp,Resources/Images/UI/Test/tmp.png,FALSE,,,,,,,,,,
+UI,Item:LifeCount,Resources/Images/UI/ItemImage/LifeCount.png,TRUE,4,1,32,29,FALSE,,,,,
+UI,Item:SpCount,Resources/Images/UI/ItemImage/spCount.png,TRUE,4,1,32,33,FALSE,,,,,
+UI,Pause:pause,Resources/Images/UI/Font/PauseText.png,TRUE,1,13,384,48,FALSE,,,,,

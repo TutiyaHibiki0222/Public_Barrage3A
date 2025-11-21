@@ -1,0 +1,113 @@
+{
+    "elements": [
+        {
+            "gameObject": {
+                "name": "Canvas",
+                "tag": "Untagged",
+                "position": {
+                    "x": 485.0,
+                    "y": 360.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "hierarchyPath": "Canvas",
+                "uniqueId": "13d83136-023f-4579-bc58-edae848ae1bd"
+            },
+            "rectTransform": {
+                "anchoredPosition": {
+                    "x": 485.0,
+                    "y": 360.0
+                },
+                "sizeDelta": {
+                    "x": 970.0,
+                    "y": 720.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            },
+            "components": [
+                {
+                    "type": "Canvas",
+                    "json": "{\"canvasOrder\":0,\"renderMode\":0,\"scaleMode\":0,\"referenceResolution\":{\"x\":800.0,\"y\":600.0}}"
+                },
+                {
+                    "type": "GraphicRaycaster",
+                    "json": "{\"ignoreReversedGraphics\":true,\"blockingObjects\":0,\"blockingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295}}"
+                }
+            ],
+            "children": [
+                {
+                    "gameObject": {
+                        "name": "TitleImage",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/TitleImage",
+                        "uniqueId": "21ce8491-82a1-4e22-af47-fdd954959c39"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "sizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "anchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "anchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Titles\",\"textKey\":\"Title01\",\"spritePath\":\"Assets/Image/Title.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

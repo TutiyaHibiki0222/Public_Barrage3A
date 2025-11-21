@@ -39,3 +39,8 @@
 
 # debug information files
 *.dwo
+
+Barrage3A/Barrage3A/x64
+Barrage3A/x64
+Barrage3A/Log.txt
+Barrage3A/.vs

@@ -1,0 +1,4 @@
+id,path,category,maxVolume,GroupID
+bgm_title,Resources/Sounds/BGM/title.wav,BGM,0.75,title
+bgm_stage1,Resources/Sounds/BGM/Stage/Start1.wav,BGM,0.6,stage1
+bgm_gameOver,Resources/Sounds/BGM/gameOver.wav,BGM,1,gameOver

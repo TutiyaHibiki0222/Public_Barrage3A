@@ -1,0 +1,125 @@
+{
+  "datas": [
+    {
+      "id": 0,
+      "texturePath": "Bullets/Enemy:b1",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 1,
+      "texturePath": "Bullets/Enemy:b4",
+      "hitboxSize": 5,
+      "colors": ["SkyBlue", "Blue", "Purple", "Pink", "Red","Orange","LemonYellow","NeonGreen","LimeGreen","Cyan"]
+    },
+    {
+      "id": 2,
+      "texturePath": "Bullets/Enemy:bigB4",
+      "hitboxSize": 7,
+      "colors": ["Gray", "Red", "Pink", "Blue", "Cyan","MintGreen","LemonYellow","White"]
+    },
+    {
+      "id": 3,
+      "texturePath": "Bullets/Enemy:b5",
+      "hitboxSize": 5,
+       "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+
+    },
+    {
+      "id": 4,
+      "texturePath": "Bullets/Enemy:b6",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 5,
+      "texturePath": "Bullets/Enemy:b7",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 6,
+      "texturePath": "Bullets/Enemy:b8",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 7,
+      "texturePath": "Bullets/Enemy:b9",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 8,
+      "texturePath": "Bullets/Enemy:miniB0",
+      "hitboxSize": 3,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 9,
+      "texturePath": "Bullets/Enemy:miniB1",
+      "hitboxSize": 3,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 10,
+      "texturePath": "Bullets/Enemy:miniB2",
+      "hitboxSize": 3,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 11,
+      "texturePath": "Bullets/Enemy:star",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 12,
+      "texturePath": "Bullets/Enemy:starBig",
+      "hitboxSize": 8,
+      "colors": ["Gray", "Red", "Purple","Blue","Cyan","MintGreen","LemonYellow", "White"]
+    },
+    {
+      "id": 13,
+      "texturePath": "Bullets/Enemy:b13",
+      "hitboxSize": 5,
+      "colors": ["Black", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","Gray"]
+    },
+    {
+      "id": 14,
+      "texturePath": "Bullets/Enemy:b14",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 15,
+      "texturePath": "Bullets/Enemy:b15",
+      "hitboxSize": 8,
+      "colors": ["Gray", "VividRed","Pink", "Blue","Cyan","MintGreen","LemonYellow","White"]
+    },
+    {
+      "id": 16,
+      "texturePath": "Bullets/Enemy:Bullet",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "VividRed","Purple", "Pink", "Blue","LightBlue","Cyan","SkyBlue","MintGreen","NeonGreen","LimeGreen","LemonYellow","PastelYellow","Orange","White"]
+    },
+    {
+      "id": 17,
+      "texturePath": "Bullets/Enemy:knife",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "Pink", "Blue","Cyan","MintGreen","LemonYellow","White"]
+    },
+    {
+      "id": 18,
+      "texturePath": "Bullets/Enemy:arraw",
+      "hitboxSize": 5,
+      "colors": ["Gray", "Red", "Pink", "Blue","Cyan","MintGreen","LemonYellow","White"]
+    },
+    {
+      "id": 19,
+      "texturePath": "Bullets/Enemy:b0",
+      "hitboxSize": 15,
+      "colors": ["Red", "Blue","MintGreen","LemonYellow"]
+    }
+    ]
+}

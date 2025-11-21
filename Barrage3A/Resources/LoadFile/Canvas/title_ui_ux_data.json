@@ -1,0 +1,645 @@
+{
+    "elements": [
+        {
+            "gameObject": {
+                "isActive": true,
+                "name": "Canvas",
+                "tag": "Untagged",
+                "position": {
+                    "x": 485.0,
+                    "y": 360.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "hierarchyPath": "Canvas",
+                "uniqueId": "b7e1c4b6-4a53-41df-8205-88547a018f42"
+            },
+            "rectTransform": {
+                "anchoredPosition": {
+                    "x": 485.0,
+                    "y": 360.0
+                },
+                "sizeDelta": {
+                    "x": 970.0,
+                    "y": 720.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            },
+            "components": [
+                {
+                    "type": "Canvas",
+                    "json": "{\"canvasOrder\":5,\"renderMode\":0,\"scaleMode\":0,\"referenceResolution\":{\"x\":0.0,\"y\":0.0}}"
+                },
+                {
+                    "type": "GraphicRaycaster",
+                    "json": "{\"ignoreReversedGraphics\":true,\"blockingObjects\":0,\"blockingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295}}"
+                }
+            ],
+            "children": [
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "TitleText",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": -240.0,
+                            "y": -250.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/TitleText",
+                        "uniqueId": "11c33175-7d62-4f3f-bcf4-5a432d66bbed"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": -240.0,
+                            "y": -250.0
+                        },
+                        "sizeDelta": {
+                            "x": 441.0,
+                            "y": 180.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Titles\",\"textKey\":\"Text\",\"spritePath\":\"Assets/Image/TitliText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "GameStart",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.0,
+                            "y": 122.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/GameStart",
+                        "uniqueId": "6ec9def2-327d-40e3-8a12-ea77d109af7f"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.0,
+                            "y": 122.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":0.125490203499794,\"g\":0.8156863451004028,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_0\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "ExtraStart",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.0000305175781,
+                            "y": 74.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/ExtraStart",
+                        "uniqueId": "3a57bcd9-e091-4c7d-8a2c-4a7ab12e4961"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.0000305175781,
+                            "y": 74.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":0.2196078598499298,\"g\":0.2196078598499298,\"b\":0.2196078598499298,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_3\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "Practice",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.0,
+                            "y": 26.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/Practice",
+                        "uniqueId": "b63cf268-73c4-4417-acaf-c1067a000fb0"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.0,
+                            "y": 26.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":0.21960784494876862,\"g\":0.21960784494876862,\"b\":0.21960784494876862,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_5\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "SpellPractice",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.0,
+                            "y": -22.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/SpellPractice",
+                        "uniqueId": "6ea77820-545a-4e5b-ad45-d909e1b5503b"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.0,
+                            "y": -22.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":0.2196078598499298,\"g\":0.2196078598499298,\"b\":0.2196078598499298,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_7\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "Replay",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.5999755859375,
+                            "y": -70.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/Replay",
+                        "uniqueId": "75f3576b-d6a1-4b72-afb4-a3354072fc99"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.5999755859375,
+                            "y": -70.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_9\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "PlayerData",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.0,
+                            "y": -118.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/PlayerData",
+                        "uniqueId": "53ad9ac9-159e-4bab-9b8f-30c22422ab7c"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.0,
+                            "y": -118.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_11\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "MusicRoom",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.5999755859375,
+                            "y": -166.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/MusicRoom",
+                        "uniqueId": "a2b93758-f594-431a-9185-3be4e8c0dce2"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.5999755859375,
+                            "y": -166.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_13\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "Option",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.5999755859375,
+                            "y": -214.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/Option",
+                        "uniqueId": "e35d1b79-9ee5-46b0-a8cc-634679d46c4b"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.5999755859375,
+                            "y": -214.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_15\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "Manual",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.5999755859375,
+                            "y": -262.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/Manual",
+                        "uniqueId": "045879e9-d2eb-47cc-a42c-ea95de4cbcf9"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.5999755859375,
+                            "y": -262.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_17\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "Quit",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 278.0,
+                            "y": -310.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "Canvas/Quit",
+                        "uniqueId": "37ccd90d-de34-4e85-94d4-726b5b74958f"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 278.0,
+                            "y": -310.0
+                        },
+                        "sizeDelta": {
+                            "x": 352.0,
+                            "y": 48.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"TextPanelText_19\",\"spritePath\":\"Assets/Image/TextPanelText.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

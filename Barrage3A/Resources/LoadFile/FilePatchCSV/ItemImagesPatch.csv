@@ -1,0 +1,9 @@
+KeyPath(キーパス),Key(キー) : (Data<Custom BaseKey>),File(画像ファイル先),Div,DivX,DivY,Width,Height,isOffSet,offSetX,offSetY,paddingX,paddingY,excludeTransparent
+Items,Item:power,Resources/Images/Item/item_p0.png,FALSE,,,,,,,,,,
+Items,Item:score,Resources/Images/Item/item_t0.png,FALSE,,,,,,,,,,
+Items,Item:powerBig,Resources/Images/Item/item_p1.png,FALSE,,,,,,,,,,
+Items,Item:scoreBig,Resources/Images/Item/item_t1.png,FALSE,,,,,,,,,,
+Items,Item:powerArrow,Resources/Images/Item/item_p0_arraw.png,FALSE,,,,,,,,,,
+Items,Item:scoreArrow,Resources/Images/Item/item_t0_arraw.png,FALSE,,,,,,,,,,
+Items,Item:powerBigArrow,Resources/Images/Item/item_p1_arraw.png,FALSE,,,,,,,,,,
+Items,Item:scoreBigArrow,Resources/Images/Item/item_t1_arraw.png,FALSE,,,,,,,,,,

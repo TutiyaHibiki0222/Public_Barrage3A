@@ -1,0 +1,2 @@
+KeyPath(キーパス),Key(キー) : (Data<Custom BaseKey>),File(画像ファイル先),Div,DivX,DivY,Width,Height,isOffSet,offSetX,offSetY,paddingX,paddingY,excludeTransparent
+Bosss,Boss:Meter,Resources/Images/Enemy/Boss/HpMeter_Donut.png,False,,,,,,,,,,

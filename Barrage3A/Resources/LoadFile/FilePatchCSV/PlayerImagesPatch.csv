@@ -1,0 +1,10 @@
+KeyPath(キーパス),Key(キー) : (Data<Custom BaseKey>),File(画像ファイル先),Div,DivX,DivY,Width,Height,isOffSet,offSetX,offSetY,paddingX,paddingY,excludeTransparent
+Player,霊夢:player01,Resources/Images/Player/player01_2.png,TRUE,8,3,32,48,FALSE,,,,,
+Player/Bullet,霊夢,Resources/Images/Bullet/bl_00.png,TRUE,1,2,55,12,FALSE,,,,,
+Player/Bullet,霊夢,Resources/Images/Bullet/bl_00_bullet_hit.png,TRUE,4,1,16,12,FALSE,,,,,
+Player/Bullet,霊夢,Resources/Images/Bullet/bl.png,TRUE,4,1,16,18,FALSE,,,,,
+Player/Bullet,霊夢,Resources/Images/Bullet/bl_01.png,FALSE,,,,,,,,,,
+Player/Bullet,霊夢,Resources/Images/Bullet/bl_02.png,FALSE,,,,,,,,,,
+Player/Slow,Body:Border,Resources/Images/Player/slow_border.png,FALSE,,,,,,,,,,
+Player/Slow,Body:Dot,Resources/Images/Player/slow_dot.png,FALSE,,,,,,,,,,
+Player,魔理沙:player02,Resources/Images/Player/player02_2.png,TRUE,8,3,32,48,FALSE,,,,,

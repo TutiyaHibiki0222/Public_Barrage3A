@@ -1,0 +1,3 @@
+KeyPath(キーパス),Key(キー) : (Data<Custom BaseKey>),File(画像ファイル先),Div,DivX,DivY,Width,Height,isOffSet,offSetX,offSetY,paddingX,paddingY,excludeTransparent
+Effects,Leaf:Leaf01,Resources/Images/Effects/effect001.png,FALSE,,,,,,,,,,
+Effects,Effect,Resources/Images/Effects/effect000.png,FALSE,,,,,,,,,,

@@ -1,0 +1,3007 @@
+{
+    "elements": [
+        {
+            "gameObject": {
+                "isActive": true,
+                "name": "gameUi",
+                "tag": "Untagged",
+                "position": {
+                    "x": 480.0,
+                    "y": 360.0,
+                    "z": 0.0
+                },
+                "rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                },
+                "hierarchyPath": "gameUi",
+                "uniqueId": "655b7830-ec25-4f5c-b870-a7dbd5175a87"
+            },
+            "rectTransform": {
+                "anchoredPosition": {
+                    "x": 480.0,
+                    "y": 360.0
+                },
+                "sizeDelta": {
+                    "x": 960.0,
+                    "y": 720.0
+                },
+                "anchorMin": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "anchorMax": {
+                    "x": 0.0,
+                    "y": 0.0
+                },
+                "pivot": {
+                    "x": 0.5,
+                    "y": 0.5
+                }
+            },
+            "components": [
+                {
+                    "type": "Canvas",
+                    "json": "{\"canvasOrder\":0,\"renderMode\":0,\"scaleMode\":0,\"referenceResolution\":{\"x\":0.0,\"y\":0.0}}"
+                },
+                {
+                    "type": "GraphicRaycaster",
+                    "json": "{\"ignoreReversedGraphics\":true,\"blockingObjects\":0,\"blockingMask\":{\"serializedVersion\":\"2\",\"m_Bits\":4294967295}}"
+                }
+            ],
+            "children": [
+                {
+                    "gameObject": {
+                        "isActive": false,
+                        "name": "Pause",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "gameUi/Pause",
+                        "uniqueId": "f03bcc51-aa6b-4cb8-8c53-e9898fe170cd"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "sizeDelta": {
+                            "x": 960.0,
+                            "y": 720.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 0.5
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [],
+                    "children": [
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "PauseMenu",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Pause/PauseMenu",
+                                "uniqueId": "91096d04-965d-4112-8fb4-2a8ce8932517"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "sizeDelta": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.0
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 1.0
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":0.2914787828922272,\"g\":0.20879314839839936,\"b\":0.43396228551864626,\"a\":0.5882353186607361},\"imgKey\":{\"pathKey\":\"\",\"key\":\"\",\"textKey\":\"\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": [
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Title",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": -223.3000030517578,
+                                            "y": 145.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Pause/PauseMenu/Title",
+                                        "uniqueId": "0f03bc5d-ddb6-4ff2-bad9-a597c7ff0d06"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": -223.3000030517578,
+                                            "y": 145.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 384.0,
+                                            "y": 48.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Pause\",\"textKey\":\"pause_0\",\"spritePath\":\"Assets/Image/PauseText.png\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Nums",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Pause/PauseMenu/Nums",
+                                        "uniqueId": "6ea3b8c6-1d1a-4783-ba22-62bec3887910"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 0.0,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 100.0,
+                                            "y": 100.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [],
+                                    "children": [
+                                        {
+                                            "gameObject": {
+                                                "isActive": true,
+                                                "name": "Key1",
+                                                "tag": "Untagged",
+                                                "position": {
+                                                    "x": -178.1999969482422,
+                                                    "y": 67.0999984741211,
+                                                    "z": 0.0
+                                                },
+                                                "rotation": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "scale": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 1.0
+                                                },
+                                                "hierarchyPath": "gameUi/Pause/PauseMenu/Nums/Key1",
+                                                "uniqueId": "73168e63-e05d-419d-8f2d-b2ff0ded3b56"
+                                            },
+                                            "rectTransform": {
+                                                "anchoredPosition": {
+                                                    "x": -178.1999969482422,
+                                                    "y": 67.0999984741211
+                                                },
+                                                "sizeDelta": {
+                                                    "x": 384.0,
+                                                    "y": 48.0
+                                                },
+                                                "anchorMin": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "anchorMax": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "pivot": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                }
+                                            },
+                                            "components": [
+                                                {
+                                                    "type": "Image",
+                                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Pause\",\"textKey\":\"pause_1\",\"spritePath\":\"Assets/Image/PauseText.png\"},\"type\":0,\"preserveAspect\":false}"
+                                                }
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "gameObject": {
+                                                "isActive": true,
+                                                "name": "Key2",
+                                                "tag": "Untagged",
+                                                "position": {
+                                                    "x": -178.1999969482422,
+                                                    "y": 16.299999237060548,
+                                                    "z": 0.0
+                                                },
+                                                "rotation": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "scale": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 1.0
+                                                },
+                                                "hierarchyPath": "gameUi/Pause/PauseMenu/Nums/Key2",
+                                                "uniqueId": "4feb0cd6-8578-41eb-ad67-e9de41a3c5af"
+                                            },
+                                            "rectTransform": {
+                                                "anchoredPosition": {
+                                                    "x": -178.1999969482422,
+                                                    "y": 16.299999237060548
+                                                },
+                                                "sizeDelta": {
+                                                    "x": 384.0,
+                                                    "y": 48.0
+                                                },
+                                                "anchorMin": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "anchorMax": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "pivot": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                }
+                                            },
+                                            "components": [
+                                                {
+                                                    "type": "Image",
+                                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Pause\",\"textKey\":\"pause_2\",\"spritePath\":\"Assets/Image/PauseText.png\"},\"type\":0,\"preserveAspect\":false}"
+                                                }
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "gameObject": {
+                                                "isActive": true,
+                                                "name": "Key3",
+                                                "tag": "Untagged",
+                                                "position": {
+                                                    "x": -178.20001220703126,
+                                                    "y": -31.700000762939454,
+                                                    "z": 0.0
+                                                },
+                                                "rotation": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "scale": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 1.0
+                                                },
+                                                "hierarchyPath": "gameUi/Pause/PauseMenu/Nums/Key3",
+                                                "uniqueId": "e2b19f65-9708-404a-9c33-e3e27ad9c381"
+                                            },
+                                            "rectTransform": {
+                                                "anchoredPosition": {
+                                                    "x": -178.20001220703126,
+                                                    "y": -31.700000762939454
+                                                },
+                                                "sizeDelta": {
+                                                    "x": 384.0,
+                                                    "y": 48.0
+                                                },
+                                                "anchorMin": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "anchorMax": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "pivot": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                }
+                                            },
+                                            "components": [
+                                                {
+                                                    "type": "Image",
+                                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Pause\",\"textKey\":\"pause_7\",\"spritePath\":\"Assets/Image/PauseText.png\"},\"type\":0,\"preserveAspect\":false}"
+                                                }
+                                            ],
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": false,
+                                        "name": "check",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Pause/PauseMenu/check",
+                                        "uniqueId": "7dab3672-0355-4d42-a41e-dbb33903a1e9"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 0.0,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 100.0,
+                                            "y": 100.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [],
+                                    "children": [
+                                        {
+                                            "gameObject": {
+                                                "isActive": true,
+                                                "name": "Titile",
+                                                "tag": "Untagged",
+                                                "position": {
+                                                    "x": 72.0,
+                                                    "y": 74.0,
+                                                    "z": 0.0
+                                                },
+                                                "rotation": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "scale": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 1.0
+                                                },
+                                                "hierarchyPath": "gameUi/Pause/PauseMenu/check/Titile",
+                                                "uniqueId": "84505d69-54fc-428a-bf37-58cc8968c0a0"
+                                            },
+                                            "rectTransform": {
+                                                "anchoredPosition": {
+                                                    "x": 72.0,
+                                                    "y": 74.0
+                                                },
+                                                "sizeDelta": {
+                                                    "x": 384.0,
+                                                    "y": 48.0
+                                                },
+                                                "anchorMin": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "anchorMax": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "pivot": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                }
+                                            },
+                                            "components": [
+                                                {
+                                                    "type": "Image",
+                                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Pause\",\"textKey\":\"pause_8\",\"spritePath\":\"Assets/Image/PauseText.png\"},\"type\":0,\"preserveAspect\":false}"
+                                                }
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "gameObject": {
+                                                "isActive": true,
+                                                "name": "Yes",
+                                                "tag": "Untagged",
+                                                "position": {
+                                                    "x": 109.0999984741211,
+                                                    "y": 15.899999618530274,
+                                                    "z": 0.0
+                                                },
+                                                "rotation": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "scale": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 1.0
+                                                },
+                                                "hierarchyPath": "gameUi/Pause/PauseMenu/check/Yes",
+                                                "uniqueId": "a2773fea-00e9-49ec-8e6c-70e3d01721a0"
+                                            },
+                                            "rectTransform": {
+                                                "anchoredPosition": {
+                                                    "x": 109.0999984741211,
+                                                    "y": 15.899999618530274
+                                                },
+                                                "sizeDelta": {
+                                                    "x": 384.0,
+                                                    "y": 48.0
+                                                },
+                                                "anchorMin": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "anchorMax": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "pivot": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                }
+                                            },
+                                            "components": [
+                                                {
+                                                    "type": "Image",
+                                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Pause\",\"textKey\":\"pause_9\",\"spritePath\":\"Assets/Image/PauseText.png\"},\"type\":0,\"preserveAspect\":false}"
+                                                }
+                                            ],
+                                            "children": []
+                                        },
+                                        {
+                                            "gameObject": {
+                                                "isActive": true,
+                                                "name": "No",
+                                                "tag": "Untagged",
+                                                "position": {
+                                                    "x": 109.0999984741211,
+                                                    "y": -32.099998474121097,
+                                                    "z": 0.0
+                                                },
+                                                "rotation": {
+                                                    "x": 0.0,
+                                                    "y": 0.0,
+                                                    "z": 0.0
+                                                },
+                                                "scale": {
+                                                    "x": 1.0,
+                                                    "y": 1.0,
+                                                    "z": 1.0
+                                                },
+                                                "hierarchyPath": "gameUi/Pause/PauseMenu/check/No",
+                                                "uniqueId": "55db8ebd-e1be-4ad7-956a-64e729bf5eb5"
+                                            },
+                                            "rectTransform": {
+                                                "anchoredPosition": {
+                                                    "x": 109.0999984741211,
+                                                    "y": -32.099998474121097
+                                                },
+                                                "sizeDelta": {
+                                                    "x": 384.0,
+                                                    "y": 48.0
+                                                },
+                                                "anchorMin": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "anchorMax": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                },
+                                                "pivot": {
+                                                    "x": 0.5,
+                                                    "y": 0.5
+                                                }
+                                            },
+                                            "components": [
+                                                {
+                                                    "type": "Image",
+                                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Pause\",\"textKey\":\"pause_10\",\"spritePath\":\"Assets/Image/PauseText.png\"},\"type\":0,\"preserveAspect\":false}"
+                                                }
+                                            ],
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "Boder",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "gameUi/Boder",
+                        "uniqueId": "b05de746-1f97-4174-b7da-de9fdeb8f6d8"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "sizeDelta": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "anchorMin": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "anchorMax": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Image",
+                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Border\",\"textKey\":\"border0\",\"spritePath\":\"Assets/Image/border1_SP_Notitle.png\"},\"type\":0,\"preserveAspect\":false}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "fpsText",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 480.0,
+                            "y": -360.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "gameUi/fpsText",
+                        "uniqueId": "822d3bde-586c-4258-97da-77f44eaf2b06"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "sizeDelta": {
+                            "x": 100.0,
+                            "y": 20.0
+                        },
+                        "anchorMin": {
+                            "x": 1.0,
+                            "y": 0.0
+                        },
+                        "anchorMax": {
+                            "x": 1.0,
+                            "y": 0.0
+                        },
+                        "pivot": {
+                            "x": 1.0,
+                            "y": 0.0
+                        }
+                    },
+                    "components": [
+                        {
+                            "type": "Text",
+                            "json": "{\"text\":\"60.0fps\",\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"fontSize\":16,\"alignment\":5,\"horizontalOverflow\":1,\"verticalOverflow\":1,\"lineSpacing\":1.0,\"fontStyle\":1,\"fontName\":\"LegacyRuntime\",\"fontPath\":\"Library/unity default resources\",\"systemFontName\":\"\"}"
+                        }
+                    ],
+                    "children": []
+                },
+                {
+                    "gameObject": {
+                        "isActive": true,
+                        "name": "Boders",
+                        "tag": "Untagged",
+                        "position": {
+                            "x": 315.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "rotation": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0,
+                            "z": 1.0
+                        },
+                        "hierarchyPath": "gameUi/Boders",
+                        "uniqueId": "5f09ec5b-bd7c-49bf-ad6c-65a53bc861a0"
+                    },
+                    "rectTransform": {
+                        "anchoredPosition": {
+                            "x": 315.0,
+                            "y": 0.0
+                        },
+                        "sizeDelta": {
+                            "x": 335.0,
+                            "y": 0.0
+                        },
+                        "anchorMin": {
+                            "x": 0.5,
+                            "y": 0.0
+                        },
+                        "anchorMax": {
+                            "x": 0.5,
+                            "y": 1.0
+                        },
+                        "pivot": {
+                            "x": 0.5,
+                            "y": 0.5
+                        }
+                    },
+                    "components": [],
+                    "children": [
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Ber",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 20.0,
+                                    "y": -64.08000183105469,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Ber",
+                                "uniqueId": "60831277-dc5a-443b-bb7f-6af82576a2de"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -147.5,
+                                    "y": -64.08000183105469
+                                },
+                                "sizeDelta": {
+                                    "x": 290.0,
+                                    "y": 4.0
+                                },
+                                "anchorMin": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":0.26274511218070986},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"Ber\",\"spritePath\":\"Assets/Image/Bar.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Ber",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 20.0,
+                                    "y": -32.20000076293945,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Ber",
+                                "uniqueId": "af272918-3923-4898-8cee-df71293508cb"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -147.5,
+                                    "y": -32.20000076293945
+                                },
+                                "sizeDelta": {
+                                    "x": 290.0,
+                                    "y": 4.0
+                                },
+                                "anchorMin": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":0.3529411554336548,\"g\":0.4563427269458771,\"b\":1.0,\"a\":0.29019609093666079},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"Ber\",\"spritePath\":\"Assets/Image/Bar.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Ber",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 20.0,
+                                    "y": 3.9000000953674318,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Ber",
+                                "uniqueId": "b8aa6050-b95d-4c35-88bf-4286fc81b379"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -147.5,
+                                    "y": 3.9000000953674318
+                                },
+                                "sizeDelta": {
+                                    "x": 290.0,
+                                    "y": 4.0
+                                },
+                                "anchorMin": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":0.46005791425704958,\"b\":0.3529411554336548,\"a\":0.29019609093666079},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"Ber\",\"spritePath\":\"Assets/Image/Bar.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Ber",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -5.0,
+                                    "y": 217.30001831054688,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Ber",
+                                "uniqueId": "ca270b34-0c23-4a34-a7c4-c6c16d79e2cc"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -172.5,
+                                    "y": 217.30001831054688
+                                },
+                                "sizeDelta": {
+                                    "x": 290.0,
+                                    "y": 4.0
+                                },
+                                "anchorMin": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":0.9015274047851563,\"b\":0.3537735939025879,\"a\":0.29019609093666079},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"Ber\",\"spritePath\":\"Assets/Image/Bar.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Ber",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 0.17669677734375,
+                                    "y": 252.79998779296876,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Ber",
+                                "uniqueId": "b329f961-c29f-460e-8f3e-50fa6bb6ec8f"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -167.32330322265626,
+                                    "y": 252.79998779296876
+                                },
+                                "sizeDelta": {
+                                    "x": 300.3533935546875,
+                                    "y": 4.0
+                                },
+                                "anchorMin": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":0.5896226167678833,\"b\":0.5896226167678833,\"a\":0.4745098054409027},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"Ber\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Ber",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 0.5200042724609375,
+                                    "y": 134.5,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Ber",
+                                "uniqueId": "84e24305-7ea6-498e-9c92-ecdb68a8132b"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -166.97999572753907,
+                                    "y": 134.5
+                                },
+                                "sizeDelta": {
+                                    "x": 300.3533935546875,
+                                    "y": 4.0
+                                },
+                                "anchorMin": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":0.0,\"b\":0.7909455299377441,\"a\":0.4745098054409027},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"Ber\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Ber",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 0.5200042724609375,
+                                    "y": 76.9000015258789,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Ber",
+                                "uniqueId": "6014bbb5-deee-401b-b152-654989b54721"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -166.97999572753907,
+                                    "y": 76.9000015258789
+                                },
+                                "sizeDelta": {
+                                    "x": 300.3533935546875,
+                                    "y": 4.0
+                                },
+                                "anchorMin": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":0.37264150381088259,\"g\":1.0,\"b\":0.3761686086654663,\"a\":0.4745098054409027},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"Ber\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Kakera",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 70.80000305175781,
+                                    "y": 91.3709945678711,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Kakera",
+                                "uniqueId": "9afcef8e-c440-4379-9bed-dbeb4daef566"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 70.80000305175781,
+                                    "y": 91.3709945678711
+                                },
+                                "sizeDelta": {
+                                    "x": 106.74539947509766,
+                                    "y": 24.941999435424806
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_6\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "BomFragmentsText",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 128.1999969482422,
+                                    "y": 87.39999389648438,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/BomFragmentsText",
+                                "uniqueId": "f696bb45-09fa-4032-8b19-b3766ba5807f"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 128.1999969482422,
+                                    "y": 87.39999389648438
+                                },
+                                "sizeDelta": {
+                                    "x": 45.0,
+                                    "y": 17.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Text",
+                                    "json": "{\"text\":\"0/3\",\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"fontSize\":14,\"alignment\":4,\"horizontalOverflow\":0,\"verticalOverflow\":0,\"lineSpacing\":1.0,\"fontStyle\":0,\"fontName\":\"LegacyRuntime\",\"fontPath\":\"Library/unity default resources\",\"systemFontName\":\"\"}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "LevelImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -5.0,
+                                    "y": 310.0,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/LevelImage",
+                                "uniqueId": "f7f7ad44-b93f-485d-b752-adb0baab3526"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -5.0,
+                                    "y": 310.0
+                                },
+                                "sizeDelta": {
+                                    "x": -189.99998474121095,
+                                    "y": 35.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Level_0\",\"spritePath\":\"Assets/Image/Level.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "ResidueTextImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -100.0,
+                                    "y": 170.0,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/ResidueTextImage",
+                                "uniqueId": "3e2bde2c-7d80-40b1-91e5-223bb8d93155"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 67.5,
+                                    "y": 170.0
+                                },
+                                "sizeDelta": {
+                                    "x": 100.0,
+                                    "y": 25.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_4\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "HiScoreTextImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -102.60001373291016,
+                                    "y": 265.29998779296877,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/HiScoreTextImage",
+                                "uniqueId": "7e423211-ce6b-4496-a90d-9cd416ef7667"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -102.60001373291016,
+                                    "y": 265.29998779296877
+                                },
+                                "sizeDelta": {
+                                    "x": 95.19999694824219,
+                                    "y": 25.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_0\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "HiScore",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 158.5,
+                                    "y": 254.79998779296876,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/HiScore",
+                                "uniqueId": "6ae3d14f-4cd1-4a33-ad0e-1d6c08cff3a8"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -9.0,
+                                    "y": 254.79998779296876
+                                },
+                                "sizeDelta": {
+                                    "x": -18.0,
+                                    "y": 21.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 1.0,
+                                    "y": 0.0
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Text",
+                                    "json": "{\"text\":\"0\",\"color\":{\"r\":0.4745098352432251,\"g\":0.46274513006210329,\"b\":0.4705882668495178,\"a\":1.0},\"fontSize\":24,\"alignment\":5,\"horizontalOverflow\":1,\"verticalOverflow\":1,\"lineSpacing\":1.0,\"fontStyle\":1,\"fontName\":\"\",\"fontPath\":\"\",\"systemFontName\":\"\"}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "SPTextImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -100.0,
+                                    "y": 112.69999694824219,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/SPTextImage",
+                                "uniqueId": "891e46a3-da16-4b1b-b030-0b29c9226a2f"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 67.5,
+                                    "y": 112.69999694824219
+                                },
+                                "sizeDelta": {
+                                    "x": 100.0,
+                                    "y": 25.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_1\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Lifes",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 50.0,
+                                    "y": 169.0,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Lifes",
+                                "uniqueId": "d7128c69-a4fb-4e78-855f-ccc9e113ebb5"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 50.0,
+                                    "y": 169.0
+                                },
+                                "sizeDelta": {
+                                    "x": 213.0,
+                                    "y": 27.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [],
+                            "children": [
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": -75.9000244140625,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Lifes/Life",
+                                        "uniqueId": "d1baed1f-983e-4e1f-a10d-f747648d6712"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": -75.9000244140625,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 25.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"LifeCount_3\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": -47.9000244140625,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Lifes/Life",
+                                        "uniqueId": "cf33f0ea-51d3-4a7d-9917-26e1ea43b09d"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": -47.9000244140625,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 25.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"LifeCount_3\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": -19.899999618530275,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Lifes/Life",
+                                        "uniqueId": "54ed71de-338d-4738-b6a7-03af408cf362"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": -19.899999618530275,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 25.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"LifeCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 8.100000381469727,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Lifes/Life",
+                                        "uniqueId": "389e4895-8665-4bf9-adc9-d1135412adfc"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 8.100000381469727,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 25.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"LifeCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 36.0999641418457,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Lifes/Life",
+                                        "uniqueId": "928724fb-cc47-41de-bfa8-64445827a302"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 36.0999641418457,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 25.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"LifeCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 64.0999755859375,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Lifes/Life",
+                                        "uniqueId": "e3f0e02b-1364-49a4-86bb-9ac07f914083"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 64.0999755859375,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 25.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"LifeCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 92.0999984741211,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Lifes/Life",
+                                        "uniqueId": "b472672e-2909-4f15-8db0-2ea4dd0df61a"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 92.0999984741211,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 25.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"LifeCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Kakera",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 70.80000305175781,
+                                    "y": 148.97000122070313,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Kakera",
+                                "uniqueId": "1c3f2629-1d7e-4c1f-a67c-3a8526f134a0"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 70.80000305175781,
+                                    "y": 148.97000122070313
+                                },
+                                "sizeDelta": {
+                                    "x": 106.74539947509766,
+                                    "y": 24.941999435424806
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_6\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "LifeFragmentsText",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 128.1999969482422,
+                                    "y": 144.99998474121095,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/LifeFragmentsText",
+                                "uniqueId": "778a0cae-549b-4307-9d58-e4e097c7bd19"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 128.1999969482422,
+                                    "y": 144.99998474121095
+                                },
+                                "sizeDelta": {
+                                    "x": 45.0,
+                                    "y": 17.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Text",
+                                    "json": "{\"text\":\"0/3\",\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"fontSize\":14,\"alignment\":4,\"horizontalOverflow\":0,\"verticalOverflow\":0,\"lineSpacing\":1.0,\"fontStyle\":0,\"fontName\":\"LegacyRuntime\",\"fontPath\":\"Library/unity default resources\",\"systemFontName\":\"\"}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "TextImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -95.20001220703125,
+                                    "y": 229.79998779296876,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/TextImage",
+                                "uniqueId": "e0534f0c-1a47-4e51-87fc-64f55d33555c"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -95.20001220703125,
+                                    "y": 229.79998779296876
+                                },
+                                "sizeDelta": {
+                                    "x": 110.0,
+                                    "y": 25.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_2\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":1,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Boms",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 50.0,
+                                    "y": 112.4000015258789,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Boms",
+                                "uniqueId": "d7128c69-a4fb-4e78-855f-ccc9e113ebb5"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 50.0,
+                                    "y": 112.4000015258789
+                                },
+                                "sizeDelta": {
+                                    "x": 213.0,
+                                    "y": 28.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [],
+                            "children": [
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": -75.9000244140625,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Boms/Life",
+                                        "uniqueId": "d1baed1f-983e-4e1f-a10d-f747648d6712"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": -75.9000244140625,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 28.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"SpCount_3\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": -47.9000244140625,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Boms/Life",
+                                        "uniqueId": "cf33f0ea-51d3-4a7d-9917-26e1ea43b09d"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": -47.9000244140625,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 28.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"SpCount_3\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": -19.899999618530275,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Boms/Life",
+                                        "uniqueId": "54ed71de-338d-4738-b6a7-03af408cf362"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": -19.899999618530275,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 28.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"SpCount_3\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 8.100000381469727,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Boms/Life",
+                                        "uniqueId": "389e4895-8665-4bf9-adc9-d1135412adfc"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 8.100000381469727,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 28.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"SpCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 36.0999641418457,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Boms/Life",
+                                        "uniqueId": "928724fb-cc47-41de-bfa8-64445827a302"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 36.0999641418457,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 28.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"SpCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 64.0999755859375,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Boms/Life",
+                                        "uniqueId": "e3f0e02b-1364-49a4-86bb-9ac07f914083"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 64.0999755859375,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 28.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"SpCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                },
+                                {
+                                    "gameObject": {
+                                        "isActive": true,
+                                        "name": "Life",
+                                        "tag": "Untagged",
+                                        "position": {
+                                            "x": 92.0999984741211,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "rotation": {
+                                            "x": 0.0,
+                                            "y": 0.0,
+                                            "z": 0.0
+                                        },
+                                        "scale": {
+                                            "x": 1.0,
+                                            "y": 1.0,
+                                            "z": 1.0
+                                        },
+                                        "hierarchyPath": "gameUi/Boders/Boms/Life",
+                                        "uniqueId": "b472672e-2909-4f15-8db0-2ea4dd0df61a"
+                                    },
+                                    "rectTransform": {
+                                        "anchoredPosition": {
+                                            "x": 92.0999984741211,
+                                            "y": 0.0
+                                        },
+                                        "sizeDelta": {
+                                            "x": 28.0,
+                                            "y": 28.0
+                                        },
+                                        "anchorMin": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "anchorMax": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        },
+                                        "pivot": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "components": [
+                                        {
+                                            "type": "Image",
+                                            "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Item\",\"textKey\":\"SpCount_0\",\"spritePath\":\"\"},\"type\":0,\"preserveAspect\":false}"
+                                        }
+                                    ],
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "Score",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 158.5,
+                                    "y": 219.29998779296876,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/Score",
+                                "uniqueId": "a1aba9c6-b459-4cad-9f80-c7f7f93ff3e1"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -9.0,
+                                    "y": 219.29998779296876
+                                },
+                                "sizeDelta": {
+                                    "x": -18.0,
+                                    "y": 21.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 1.0,
+                                    "y": 0.0
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Text",
+                                    "json": "{\"text\":\"0\",\"color\":{\"r\":0.9725490808486939,\"g\":0.9921569228172302,\"b\":0.9803922176361084,\"a\":1.0},\"fontSize\":24,\"alignment\":5,\"horizontalOverflow\":1,\"verticalOverflow\":1,\"lineSpacing\":1.0,\"fontStyle\":1,\"fontName\":\"\",\"fontPath\":\"\",\"systemFontName\":\"\"}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "ReiryokuTextImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -62.0,
+                                    "y": 19.899993896484376,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/ReiryokuTextImage",
+                                "uniqueId": "0ecf71e2-1d7b-4a6a-b930-992e1c587731"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 105.5,
+                                    "y": 19.899993896484376
+                                },
+                                "sizeDelta": {
+                                    "x": 124.0,
+                                    "y": 28.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_7\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "reiryoku",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 147.5,
+                                    "y": 5.900000095367432,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/reiryoku",
+                                "uniqueId": "f9ca45f1-60df-4e8e-b9ee-073700f14186"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -20.0,
+                                    "y": 5.900000095367432
+                                },
+                                "sizeDelta": {
+                                    "x": -145.0,
+                                    "y": 21.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 1.0,
+                                    "y": 0.0
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Text",
+                                    "json": "{\"text\":\"1.<size=60>00</size>/4.<size=60>00</size>\",\"color\":{\"r\":0.917647123336792,\"g\":0.458823561668396,\"b\":0.18039216101169587,\"a\":1.0},\"fontSize\":24,\"alignment\":5,\"horizontalOverflow\":1,\"verticalOverflow\":1,\"lineSpacing\":1.0,\"fontStyle\":1,\"fontName\":\"\",\"fontPath\":\"\",\"systemFontName\":\"\"}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "TokutenTextImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -62.0,
+                                    "y": -16.20000648498535,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/TokutenTextImage",
+                                "uniqueId": "1cc14567-6af2-4c33-87d3-14f4dfefc84d"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 105.5,
+                                    "y": -16.20000648498535
+                                },
+                                "sizeDelta": {
+                                    "x": 124.0,
+                                    "y": 28.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_5\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "MaxAddScore",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 147.5,
+                                    "y": -30.200000762939454,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/MaxAddScore",
+                                "uniqueId": "ec6b0a9c-b6ec-4bb9-9e1d-2067c70c7fe9"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -20.0,
+                                    "y": -30.200000762939454
+                                },
+                                "sizeDelta": {
+                                    "x": -187.5,
+                                    "y": 21.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 1.0,
+                                    "y": 0.0
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Text",
+                                    "json": "{\"text\":\"0\",\"color\":{\"r\":0.21568629145622254,\"g\":0.615686297416687,\"b\":0.8196079134941101,\"a\":1.0},\"fontSize\":24,\"alignment\":5,\"horizontalOverflow\":1,\"verticalOverflow\":1,\"lineSpacing\":1.0,\"fontStyle\":1,\"fontName\":\"\",\"fontPath\":\"\",\"systemFontName\":\"\"}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "GraizeTextImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": -62.0,
+                                    "y": -51.58001708984375,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/GraizeTextImage",
+                                "uniqueId": "96862abe-1969-41db-a447-9d8ce2bda437"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 105.5,
+                                    "y": -51.58001708984375
+                                },
+                                "sizeDelta": {
+                                    "x": 124.0,
+                                    "y": 28.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Fonts\",\"textKey\":\"Text_3\",\"spritePath\":\"Assets/Image/Text.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "GrazeCount",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 147.5,
+                                    "y": -62.08000183105469,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/GrazeCount",
+                                "uniqueId": "0e8c98f8-63c2-4b1f-a11c-692343f5ecb6"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -20.0,
+                                    "y": -62.08000183105469
+                                },
+                                "sizeDelta": {
+                                    "x": -187.5,
+                                    "y": 21.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 1.0,
+                                    "y": 0.0
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Text",
+                                    "json": "{\"text\":\"0\",\"color\":{\"r\":0.7547169923782349,\"g\":0.7547169923782349,\"b\":0.7547169923782349,\"a\":1.0},\"fontSize\":24,\"alignment\":5,\"horizontalOverflow\":1,\"verticalOverflow\":1,\"lineSpacing\":1.0,\"fontStyle\":1,\"fontName\":\"\",\"fontPath\":\"\",\"systemFontName\":\"\"}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "TotalGrazeCount",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 145.0,
+                                    "y": -83.08002471923828,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/TotalGrazeCount",
+                                "uniqueId": "0e8c98f8-63c2-4b1f-a11c-692343f5ecb6"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": -22.5,
+                                    "y": -83.08002471923828
+                                },
+                                "sizeDelta": {
+                                    "x": -190.00003051757813,
+                                    "y": 17.0
+                                },
+                                "anchorMin": {
+                                    "x": 0.0,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 1.0,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 1.0,
+                                    "y": 0.0
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Text",
+                                    "json": "{\"text\":\"0\",\"color\":{\"r\":0.7547169923782349,\"g\":0.7547169923782349,\"b\":0.7547169923782349,\"a\":1.0},\"fontSize\":16,\"alignment\":2,\"horizontalOverflow\":1,\"verticalOverflow\":1,\"lineSpacing\":1.0,\"fontStyle\":1,\"fontName\":\"\",\"fontPath\":\"\",\"systemFontName\":\"\"}"
+                                }
+                            ],
+                            "children": []
+                        },
+                        {
+                            "gameObject": {
+                                "isActive": true,
+                                "name": "TitleImage",
+                                "tag": "Untagged",
+                                "position": {
+                                    "x": 0.0,
+                                    "y": -215.0,
+                                    "z": 0.0
+                                },
+                                "rotation": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                },
+                                "scale": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                },
+                                "hierarchyPath": "gameUi/Boders/TitleImage",
+                                "uniqueId": "adccc856-183e-4b9c-80ff-c4f12e4bbeaa"
+                            },
+                            "rectTransform": {
+                                "anchoredPosition": {
+                                    "x": 0.0,
+                                    "y": -215.0
+                                },
+                                "sizeDelta": {
+                                    "x": 334.8244934082031,
+                                    "y": 133.69070434570313
+                                },
+                                "anchorMin": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "anchorMax": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                },
+                                "pivot": {
+                                    "x": 0.5,
+                                    "y": 0.5
+                                }
+                            },
+                            "components": [
+                                {
+                                    "type": "Image",
+                                    "json": "{\"color\":{\"r\":1.0,\"g\":1.0,\"b\":1.0,\"a\":1.0},\"imgKey\":{\"pathKey\":\"UI\",\"key\":\"Titles\",\"textKey\":\"Text\",\"spritePath\":\"Assets/Image/TitliText.png\"},\"type\":0,\"preserveAspect\":false}"
+                                }
+                            ],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
