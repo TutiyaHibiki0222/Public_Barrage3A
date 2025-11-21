@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a6e34515-4e4f-4f7a-ad13-6e15a9b220dc}</ProjectGuid>
+    <RootNamespace>Barrage3A</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Barrage3A</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\MinWor\Documents\_DxLib\DxLib_3.24d;C:\Users\ydauser01\Documents\_DxLib</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\Users\nwuser\Documents\_DxLib\DxLib_3.24d;C:\Users\MinWor\Documents\_DxLib\DxLib_3.24d;C:\Users\ydauser01\Documents\_DxLib</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>3.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\MinWor\Documents\_DxLib\DxLib_3.24d;C:\Users\ydauser01\Documents\_DxLib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\Users\nwuser\Documents\_DxLib\DxLib_3.24d;C:\Users\MinWor\Documents\_DxLib\DxLib_3.24d;C:\Users\ydauser01\Documents\_DxLib</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderType>Pixel</ShaderType>
+      <ShaderModel>3.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\MinWor\Documents\_DxLib\DxLib_3.24d;C:\Users\ydauser01\Documents\_DxLib</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\Users\nwuser\Documents\_DxLib\DxLib_3.24d;C:\Users\MinWor\Documents\_DxLib\DxLib_3.24d;C:\Users\ydauser01\Documents\_DxLib</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderType>Pixel</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>3.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\MinWor\Documents\_DxLib\DxLib_3.24d;C:\Users\ydauser01\Documents\_DxLib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用;C:\Users\nwuser\Documents\_DxLib\DxLib_3.24d;C:\Users\MinWor\Documents\_DxLib\DxLib_3.24d;C:\Users\ydauser01\Documents\_DxLib</AdditionalLibraryDirectories>
+    </Link>
+    <FxCompile>
+      <ShaderType>Pixel</ShaderType>
+      <ShaderModel>3.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Animator.cpp" />
+    <ClCompile Include="AppBase.cpp" />
+    <ClCompile Include="ArrowPointer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="AudioClip.cpp" />
+    <ClCompile Include="AudioSource.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BombManager.cpp" />
+    <ClCompile Include="BossAuraController.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BulletBase.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="BulletScript.cpp" />
+    <ClCompile Include="BulletType.cpp" />
+    <ClCompile Include="Button.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Collider2D.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="CollisionDispatcher.cpp" />
+    <ClCompile Include="ColliderManager.cpp" />
+    <ClCompile Include="Define.cpp" />
+    <ClCompile Include="Dx3DCamera.cpp" />
+    <ClCompile Include="Enemy.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="EnemyHoming.cpp" />
+    <ClCompile Include="EnemyManager.cpp" />
+    <ClCompile Include="EnemyScript.cpp" />
+    <ClCompile Include="ExplosionEffect.cpp" />
+    <ClCompile Include="FadeTransitor.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObjectMgr.cpp" />
+    <ClCompile Include="GameScene.cpp" />
+    <ClCompile Include="GraphicRaycaster.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="GrazeManager.cpp" />
+    <ClCompile Include="HpGauge.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="HUDManager.cpp" />
+    <ClCompile Include="InputSystem.cpp" />
+    <ClCompile Include="IrisTransitor.cpp" />
+    <ClCompile Include="ItemBase.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp" />
+    <ClCompile Include="LayerManager.cpp" />
+    <ClCompile Include="LifeManager.cpp" />
+    <ClCompile Include="Magatama.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MagatamaController.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MeshSurface.cpp" />
+    <ClCompile Include="MusicController.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="MyBullet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PixelShaderBase.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlayerBase.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PlayerPrefs.cpp" />
+    <ClCompile Include="PowerManager.cpp" />
+    <ClCompile Include="Prefab.cpp" />
+    <ClCompile Include="ReimuHakurei.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Stage3.cpp" />
+    <ClCompile Include="Pseudo3DBackgroundManager.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="PushTransitor.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="RectTransform2D.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ScoreEffect.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp" />
+    <ClCompile Include="ShapesRenderer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ShiftAura.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="ShotScript.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Sprite3DRenderer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="SpriteFont.cpp" />
+    <ClCompile Include="SpriteRenderer.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp" />
+    <ClCompile Include="StageObject.cpp" />
+    <ClCompile Include="Stopwatch.cpp" />
+    <ClCompile Include="StripTransitor.cpp" />
+    <ClCompile Include="Surface.cpp" />
+    <ClCompile Include="StageUnit.cpp" />
+    <ClCompile Include="Text.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="TileTransitor.cpp" />
+    <ClCompile Include="TitleScene.cpp" />
+    <ClCompile Include="TitleUIManager.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Tmp.cpp" />
+    <ClCompile Include="TouhouBase.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Transform2D.cpp">
+      <SubType>
+      </SubType>
+    </ClCompile>
+    <ClCompile Include="Transitor.cpp" />
+    <ClCompile Include="UiBase.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="WipeTransitor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractBackground.hpp" />
+    <ClInclude Include="AnimationClip.h" />
+    <ClInclude Include="Animator.h" />
+    <ClInclude Include="AnimatorCondition.h" />
+    <ClInclude Include="AnimatorOverride.h" />
+    <ClInclude Include="AnimatorParameter.h" />
+    <ClInclude Include="AnimatorState.h" />
+    <ClInclude Include="AppBase.h" />
+    <ClInclude Include="Application.hpp" />
+    <ClInclude Include="ArrowPointer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="AudioAnalyzer.hpp" />
+    <ClInclude Include="AudioClip.h" />
+    <ClInclude Include="AudioResource.hpp" />
+    <ClInclude Include="AudioResourceShortcut.hpp" />
+    <ClInclude Include="AudioSource.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BarrelDistortShader.h" />
+    <ClInclude Include="BombManager.h" />
+    <ClInclude Include="BossAuraController.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BuildUI.hpp" />
+    <ClInclude Include="BulletBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="BulletControllerBase.h" />
+    <ClInclude Include="BulletInstruction.h" />
+    <ClInclude Include="BulletManager.h" />
+    <ClInclude Include="BulletScript.h" />
+    <ClInclude Include="BulletScriptManager.h" />
+    <ClInclude Include="CreateAnimation.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Dx3DCamera.h" />
+    <ClInclude Include="EnemyBullet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnemyFarm.h" />
+    <ClInclude Include="EnemyHoming.h" />
+    <ClInclude Include="EnemyScriptManager.h" />
+    <ClInclude Include="FilterUI.h" />
+    <ClInclude Include="GameScene.h" />
+    <ClInclude Include="HpGauge.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MeshSurface.h" />
+    <ClInclude Include="Path2D.h" />
+    <ClInclude Include="PathManager.h" />
+    <ClInclude Include="PixelShaderBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PlayerBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ReimuHakurei.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Stage3.h" />
+    <ClInclude Include="Pseudo3DBackgroundManager.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ScoreEffect.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Script.h" />
+    <ClInclude Include="ShotInstruction.h" />
+    <ClInclude Include="ShotScript.h" />
+    <ClInclude Include="BulletType.h" />
+    <ClInclude Include="Button.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="CCell.hpp" />
+    <ClInclude Include="Collider2D.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h" />
+    <ClInclude Include="CollisionDispatcher.h" />
+    <ClInclude Include="CollisionList.hpp" />
+    <ClInclude Include="common.h" />
+    <ClInclude Include="Coroutine.hpp" />
+    <ClInclude Include="CsvReader.hpp" />
+    <ClInclude Include="Debug.hpp" />
+    <ClInclude Include="Delegate.hpp" />
+    <ClInclude Include="Directory.hpp" />
+    <ClInclude Include="EditorUtility.hpp" />
+    <ClInclude Include="Enemy.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h" />
+    <ClInclude Include="EnemyScript.h" />
+    <ClInclude Include="ExplosionEffect.h" />
+    <ClInclude Include="FadeTransitor.h" />
+    <ClInclude Include="File.hpp" />
+    <ClInclude Include="FileStream.hpp" />
+    <ClInclude Include="Filter.hpp" />
+    <ClInclude Include="Font.hpp" />
+    <ClInclude Include="Format.hpp" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectMgr.h" />
+    <ClInclude Include="GameWorldManager.hpp" />
+    <ClInclude Include="Generic.h" />
+    <ClInclude Include="GraphicRaycaster.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="GrazeManager.h" />
+    <ClInclude Include="Grid.hpp" />
+    <ClInclude Include="headers.h" />
+    <ClInclude Include="Header\AimTrigger.h" />
+    <ClInclude Include="Header\BulletBase.h" />
+    <ClInclude Include="Header\BulletPatternFactory.h" />
+    <ClInclude Include="Header\Character.h" />
+    <ClInclude Include="HUDManager.h" />
+    <ClInclude Include="IDraw.h" />
+    <ClInclude Include="INetwork.hpp" />
+    <ClInclude Include="InputSystem.h" />
+    <ClInclude Include="EnemyInstruction.h" />
+    <ClInclude Include="Invoke.hpp" />
+    <ClInclude Include="IrisTransitor.h" />
+    <ClInclude Include="ItemBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h" />
+    <ClInclude Include="JsonUtility.h" />
+    <ClInclude Include="Code.h" />
+    <ClInclude Include="JsonValue.hpp" />
+    <ClInclude Include="Layer.h" />
+    <ClInclude Include="LayerManager.h" />
+    <ClInclude Include="LayerMask.hpp" />
+    <ClInclude Include="LibrarySettings.h" />
+    <ClInclude Include="LifeManager.h" />
+    <ClInclude Include="LinerQuaternaryTreeManager.hpp" />
+    <ClInclude Include="Linq.hpp" />
+    <ClInclude Include="Magatama.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MagatamaController.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Mathf.h" />
+    <ClInclude Include="MortonOrder.hpp" />
+    <ClInclude Include="MusicController.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="MyBullet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="NetworkClient.hpp" />
+    <ClInclude Include="NetworkServer.hpp" />
+    <ClInclude Include="ParticleSystem.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Path.hpp" />
+    <ClInclude Include="PlayerBullet.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="PlayerPrefs.h" />
+    <ClInclude Include="PowerManager.h" />
+    <ClInclude Include="Prefab.h" />
+    <ClInclude Include="Project.h" />
+    <ClInclude Include="Property.hpp" />
+    <ClInclude Include="PushTransitor.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="RectTransform2D.h" />
+    <ClInclude Include="Reflection.h" />
+    <ClInclude Include="RendererManager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ScoreManager.h" />
+    <ClInclude Include="ShapesRenderer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShiftAura.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="ShotScriptManager.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="Sprite3DRenderer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="SpriteFont.h" />
+    <ClInclude Include="SpriteRenderer.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="StageManager.cpp.h" />
+    <ClInclude Include="StageObject.h" />
+    <ClInclude Include="Stopwatch.hpp" />
+    <ClInclude Include="Stream.hpp" />
+    <ClInclude Include="StreamReader.hpp" />
+    <ClInclude Include="StreamWriter.hpp" />
+    <ClInclude Include="String.hpp" />
+    <ClInclude Include="StringConverter.hpp" />
+    <ClInclude Include="StripTransitor.h" />
+    <ClInclude Include="Surface.h" />
+    <ClInclude Include="StageUnit.h" />
+    <ClInclude Include="SystemImage.hpp" />
+    <ClInclude Include="SystemIO.h" />
+    <ClInclude Include="Task.hpp" />
+    <ClInclude Include="Text.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h" />
+    <ClInclude Include="TextSegment.hpp" />
+    <ClInclude Include="Texture2D.h" />
+    <ClInclude Include="Texture2DManager.hpp" />
+    <ClInclude Include="Texture2DShortcut.hpp" />
+    <ClInclude Include="TileTransitor.h" />
+    <ClInclude Include="TitleScene.h" />
+    <ClInclude Include="TitleUIManager.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Tmp.h" />
+    <ClInclude Include="TouhouBase.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Transform2D.h">
+      <SubType>
+      </SubType>
+    </ClInclude>
+    <ClInclude Include="Transitor.h" />
+    <ClInclude Include="TreeData.hpp" />
+    <ClInclude Include="UiBase.h" />
+    <ClInclude Include="UiJsonCommon.hpp" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="WeakAccessor.hpp" />
+    <ClInclude Include="WinHttpClient.hpp" />
+    <ClInclude Include="WipeTransitor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BuildSetting.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BuildSetting.aps" />
+    <None Include="MyApp.aps" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shader\BarrelDistort.hlsl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

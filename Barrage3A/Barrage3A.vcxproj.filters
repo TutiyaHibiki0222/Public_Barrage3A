@@ -1,0 +1,934 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Stopwatch.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2D.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectMgr.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerManager.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform2D.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>ソース ファイル\Algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPrefs.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>ソース ファイル\AppBase\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Canvas.cpp">
+      <Filter>ソース ファイル\AppBase\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>ソース ファイル\AppBase\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicRaycaster.cpp">
+      <Filter>ソース ファイル\AppBase\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="AppBase.cpp">
+      <Filter>ソース ファイル\AppBase\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="UiBase.cpp">
+      <Filter>ソース ファイル\AppBase\UI\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDispatcher.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClip.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSource.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Transitor.cpp">
+      <Filter>ソース ファイル\Scene\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeTransitor.cpp">
+      <Filter>ソース ファイル\Scene\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="StripTransitor.cpp">
+      <Filter>ソース ファイル\Scene\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="WipeTransitor.cpp">
+      <Filter>ソース ファイル\Scene\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="PushTransitor.cpp">
+      <Filter>ソース ファイル\Scene\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="IrisTransitor.cpp">
+      <Filter>ソース ファイル\Scene\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>ソース ファイル\AppBase\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapesRenderer.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル\_Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionEffect.cpp" />
+    <ClCompile Include="Prefab.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Magatama.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MagatamaController.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBullet.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="TileTransitor.cpp">
+      <Filter>ソース ファイル\Scene\Transitor</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicController.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteFont.cpp">
+      <Filter>ソース ファイル\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleUIManager.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBase.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyScript.cpp">
+      <Filter>ソース ファイル\_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="BombManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GrazeManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletType.cpp">
+      <Filter>ソース ファイル\_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotScript.cpp">
+      <Filter>ソース ファイル\_Game\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrowPointer.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreEffect.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletScript.cpp" />
+    <ClCompile Include="EnemyHoming.cpp" />
+    <ClCompile Include="Stage3.cpp">
+      <Filter>ソース ファイル\_Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Surface.cpp">
+      <Filter>ソース ファイル\_Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>ソース ファイル\_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Pseudo3DBackgroundManager.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx3DCamera.cpp">
+      <Filter>ソース ファイル\_Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShaderBase.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite3DRenderer.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="BossAuraController.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshSurface.cpp">
+      <Filter>ソース ファイル\_Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageUnit.cpp">
+      <Filter>ソース ファイル\_Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageObject.cpp">
+      <Filter>ソース ファイル\_Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Tmp.cpp">
+      <Filter>ソース ファイル\_Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RectTransform2D.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="HpGauge.cpp">
+      <Filter>ソース ファイル\AppBase</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>ソース ファイル\_Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBase.cpp">
+      <Filter>ソース ファイル\AppBase\Touhou\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="TouhouBase.cpp">
+      <Filter>ソース ファイル\AppBase\Touhou</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBase.cpp">
+      <Filter>ソース ファイル\AppBase\Touhou\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ReimuHakurei.cpp">
+      <Filter>ソース ファイル\AppBase\Touhou\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ShiftAura.cpp">
+      <Filter>ソース ファイル\AppBase\Touhou</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBullet.cpp">
+      <Filter>ソース ファイル\AppBase\Touhou\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>ソース ファイル\AppBase\Touhou\Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Stopwatch.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Character.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BulletPatternFactory.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\BulletBase.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\AimTrigger.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationClip.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorCondition.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorParameter.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorState.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform2D.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2D.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectMgr.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorldManager.hpp">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Generic.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerManager.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerMask.hpp">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>ヘッダー ファイル\GameEngine\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.hpp">
+      <Filter>ヘッダー ファイル\GameEngine\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="CsvReader.hpp">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="File.hpp">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.hpp">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Directory.hpp">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemIO.h">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.hpp">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamWriter.hpp">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.hpp">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamReader.hpp">
+      <Filter>ヘッダー ファイル\System\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Coroutine.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.hpp">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorUtility.hpp">
+      <Filter>ヘッダー ファイル\GameEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Format.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.hpp">
+      <Filter>ヘッダー ファイル\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="RendererManager.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkClient.hpp">
+      <Filter>ヘッダー ファイル\System\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkServer.hpp">
+      <Filter>ヘッダー ファイル\System\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IDraw.h">
+      <Filter>ヘッダー ファイル\GameEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="Linq.hpp">
+      <Filter>ヘッダー ファイル\System\Linq</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoke.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DManager.hpp">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonUtility.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>ヘッダー ファイル\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemImage.hpp">
+      <Filter>ヘッダー ファイル\System\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>ヘッダー ファイル\GameEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="INetwork.hpp">
+      <Filter>ヘッダー ファイル\System\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WeakAccessor.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Code.h">
+      <Filter>ヘッダー ファイル\_Utilite</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>ヘッダー ファイル\_Utilite</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPrefs.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="String.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Prefab.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル\_Utilite</Filter>
+    </ClInclude>
+    <ClInclude Include="Project.h">
+      <Filter>ヘッダー ファイル\_Utilite</Filter>
+    </ClInclude>
+    <ClInclude Include="CCell.hpp">
+      <Filter>ヘッダー ファイル\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionList.hpp">
+      <Filter>ヘッダー ファイル\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="LinerQuaternaryTreeManager.hpp">
+      <Filter>ヘッダー ファイル\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="MortonOrder.hpp">
+      <Filter>ヘッダー ファイル\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeData.hpp">
+      <Filter>ヘッダー ファイル\Algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="RectTransform2D.h">
+      <Filter>ヘッダー ファイル\AppBase\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>ヘッダー ファイル\AppBase\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicRaycaster.h">
+      <Filter>ヘッダー ファイル\AppBase\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>ヘッダー ファイル\AppBase\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBase.h">
+      <Filter>ヘッダー ファイル\AppBase\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="UiBase.h">
+      <Filter>ヘッダー ファイル\AppBase\UI\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>ヘッダー ファイル\AppBase\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="WinHttpClient.hpp">
+      <Filter>ヘッダー ファイル\System\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="StringConverter.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDispatcher.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClip.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioAnalyzer.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSource.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Transitor.h">
+      <Filter>ヘッダー ファイル\Scene\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeTransitor.h">
+      <Filter>ヘッダー ファイル\Scene\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="WipeTransitor.h">
+      <Filter>ヘッダー ファイル\Scene\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="StripTransitor.h">
+      <Filter>ヘッダー ファイル\Scene\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="IrisTransitor.h">
+      <Filter>ヘッダー ファイル\Scene\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="PushTransitor.h">
+      <Filter>ヘッダー ファイル\Scene\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonValue.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="UiJsonCommon.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>ヘッダー ファイル\AppBase\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildUI.hpp">
+      <Filter>ヘッダー ファイル\AppBase\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapesRenderer.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.hpp">
+      <Filter>ヘッダー ファイル\GameEngine\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.hpp">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionEffect.h" />
+    <ClInclude Include="Texture2DShortcut.hpp">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Magatama.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MagatamaController.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="LibrarySettings.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBullet.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TileTransitor.h">
+      <Filter>ヘッダー ファイル\Scene\Transitor</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteFont.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioResourceShortcut.hpp">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioResource.hpp">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="MusicController.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="TextSegment.hpp">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleUIManager.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBase.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletInstruction.h">
+      <Filter>ヘッダー ファイル\_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BombManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GrazeManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletType.h">
+      <Filter>ヘッダー ファイル\_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotInstruction.h">
+      <Filter>ヘッダー ファイル\_Game\shot</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotScript.h">
+      <Filter>ヘッダー ファイル\_Game\shot</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyInstruction.h">
+      <Filter>ヘッダー ファイル\_Game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyScript.h">
+      <Filter>ヘッダー ファイル\_Game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotScriptManager.h">
+      <Filter>ヘッダー ファイル\_Game\shot</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletScriptManager.h">
+      <Filter>ヘッダー ファイル\_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyScriptManager.h">
+      <Filter>ヘッダー ファイル\_Game\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrowPointer.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreEffect.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Path2D.h">
+      <Filter>ヘッダー ファイル\_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletControllerBase.h" />
+    <ClInclude Include="BulletScript.h" />
+    <ClInclude Include="EnemyHoming.h" />
+    <ClInclude Include="Script.h" />
+    <ClInclude Include="EnemyFarm.h" />
+    <ClInclude Include="Stage3.h">
+      <Filter>ヘッダー ファイル\_Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractBackground.hpp">
+      <Filter>ヘッダー ファイル\_Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>ヘッダー ファイル\_Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>ヘッダー ファイル\_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Pseudo3DBackgroundManager.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx3DCamera.h">
+      <Filter>ヘッダー ファイル\_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShaderBase.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="BarrelDistortShader.h">
+      <Filter>ヘッダー ファイル\_Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite3DRenderer.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="BossAuraController.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshSurface.h">
+      <Filter>ヘッダー ファイル\_Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageUnit.h">
+      <Filter>ヘッダー ファイル\_Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageObject.h">
+      <Filter>ヘッダー ファイル\_Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Tmp.h">
+      <Filter>ヘッダー ファイル\_Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="HpGauge.h">
+      <Filter>ヘッダー ファイル\AppBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorOverride.h">
+      <Filter>ヘッダー ファイル\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ヘッダー ファイル\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateAnimation.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterUI.h">
+      <Filter>ヘッダー ファイル\AppBase\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.cpp.h">
+      <Filter>ヘッダー ファイル\_Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBase.h">
+      <Filter>ヘッダー ファイル\AppBase\Touhou\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBase.h">
+      <Filter>ヘッダー ファイル\AppBase\Touhou\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="ReimuHakurei.h">
+      <Filter>ヘッダー ファイル\AppBase\Touhou\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="TouhouBase.h">
+      <Filter>ヘッダー ファイル\AppBase\Touhou</Filter>
+    </ClInclude>
+    <ClInclude Include="ShiftAura.h">
+      <Filter>ヘッダー ファイル\AppBase\Touhou</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBullet.h">
+      <Filter>ヘッダー ファイル\AppBase\Touhou\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>ヘッダー ファイル\AppBase\Touhou\Bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{de202259-5c19-40ed-9586-a4f611d04892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{b03d1f6a-3ee9-49f8-a3ed-d207b4d9a88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{5f4e9ca7-9de9-4548-987f-4d6740fef36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AppBase">
+      <UniqueIdentifier>{d0df0085-dc2e-475d-b2df-12e4ae56baf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameEngine">
+      <UniqueIdentifier>{b5a05fdd-466b-4035-a51b-c2baef79e90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AppBase">
+      <UniqueIdentifier>{5a3193b5-dbe0-4de3-8eb0-bd0958a3196e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{3fe9e5c9-c25a-4931-9694-2648bc480be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameEngine">
+      <UniqueIdentifier>{6abf38c9-d451-4ea2-8e33-c3dafbaa52be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameEngine\Setting">
+      <UniqueIdentifier>{feec6813-6d16-47f3-b274-4934f10096df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\IO">
+      <UniqueIdentifier>{148d3e22-cddf-4f17-a20b-e8caa11d1616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameEditor">
+      <UniqueIdentifier>{cf20057c-472a-4788-9606-a56b814a4a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Algorithm">
+      <UniqueIdentifier>{48233d20-15a9-445f-9a95-d0a6e14179a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Algorithm">
+      <UniqueIdentifier>{925d957c-36f2-4bbb-a012-fc5f1594c3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Net">
+      <UniqueIdentifier>{28e7aa1f-5bab-41b2-bf34-891044aac0f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Linq">
+      <UniqueIdentifier>{99e3af67-b8ee-40e2-a340-0cc1d43c730b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System\Image">
+      <UniqueIdentifier>{efee9fa6-5ddf-45e7-a971-2d966445168b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\_Utilite">
+      <UniqueIdentifier>{088c2845-d4c8-4fa2-a8e6-bcd5fabcb594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Animation">
+      <UniqueIdentifier>{637841ec-3975-41a5-bd12-68111bf3e789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AppBase\UI">
+      <UniqueIdentifier>{8eacaaaf-deab-45a9-abdb-fd88f7169e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AppBase\Base">
+      <UniqueIdentifier>{e6cf7980-d7aa-4c54-92fc-6f15f40e02f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AppBase\UI\Base">
+      <UniqueIdentifier>{75d7d6ad-5ee1-41c2-b5e1-9b12159d8fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AppBase\UI">
+      <UniqueIdentifier>{84881fc5-9876-40d4-9708-d5aefb129535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AppBase\Base">
+      <UniqueIdentifier>{fd2c9c8e-5851-4000-90d9-135e9bbe6277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AppBase\UI\Base">
+      <UniqueIdentifier>{83ea0254-0801-4cc2-903d-851ea194e760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameEngine\Filter">
+      <UniqueIdentifier>{a68e0568-eb2b-43a4-9b0d-7d01603f4225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{0d599f5c-234c-474f-9414-0e88f9084ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Transitor">
+      <UniqueIdentifier>{61947943-3027-4e38-8810-73a1bc5e41cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\_Game">
+      <UniqueIdentifier>{6afb3cc9-bc9c-4566-b53a-eb870feb8f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\_Game\Manager">
+      <UniqueIdentifier>{3a15fa26-bef6-4ed6-9aff-aa5fe91be34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\_Game">
+      <UniqueIdentifier>{4d893a17-1e2a-4cb7-9a5f-811ded41b153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\_Game\Manager">
+      <UniqueIdentifier>{12b53a15-08b1-4124-ae8f-ba4ae5e9054b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\_Main">
+      <UniqueIdentifier>{eed69476-409b-4ec7-bde5-8776a3e4cbe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\_Game\shot">
+      <UniqueIdentifier>{989d0e45-95bc-4584-88d7-344f0baae90e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\_Game\enemy">
+      <UniqueIdentifier>{7907b403-e164-4f88-8b02-ea7174105707}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\_Game\Shot">
+      <UniqueIdentifier>{6dc2bb82-cfb3-4399-bac1-50f5ee3a75a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\_Game\Stage">
+      <UniqueIdentifier>{328fa43f-ab42-4e57-869e-28bbe49de9bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\_Game\Stage">
+      <UniqueIdentifier>{7201b3b5-2036-4061-a605-3ef462fd1380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{5ff9ca08-3024-4f75-ad84-c2509a6c37a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene\Transitor">
+      <UniqueIdentifier>{2ae35d04-4221-4509-b133-0bc051a066ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AppBase\Touhou">
+      <UniqueIdentifier>{94bae1d8-4434-403f-b48e-04bdf0e263b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AppBase\Touhou\Bullet">
+      <UniqueIdentifier>{982d48e2-03a4-45ca-8720-12cc01650f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\AppBase\Touhou\Character">
+      <UniqueIdentifier>{e9dabe12-a656-4e9c-a6c1-caf6d5123fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AppBase\Touhou">
+      <UniqueIdentifier>{a65d0963-9a7e-45ca-97ec-9bc041a27b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AppBase\Touhou\Bullet">
+      <UniqueIdentifier>{1874e090-99e1-4293-8106-87d2cb436aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\AppBase\Touhou\Character">
+      <UniqueIdentifier>{fb11be89-90b2-4eaa-bca3-ca52206a8076}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BuildSetting.aps">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="MyApp.aps">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BuildSetting.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shader\BarrelDistort.hlsl" />
+  </ItemGroup>
+</Project>

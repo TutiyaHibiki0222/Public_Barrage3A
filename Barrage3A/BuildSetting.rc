@@ -1,0 +1,5 @@
+#pragma once
+// MyApp.rc
+#include "resource.h"
+
+IDI_MYAPP_ICON ICON "../Library/Log1.ico"
